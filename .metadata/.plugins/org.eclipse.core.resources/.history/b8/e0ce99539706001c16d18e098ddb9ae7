@@ -1,0 +1,5 @@
+package in.naresh.gaurav.entity;
+
+public class Doctor {
+
+}

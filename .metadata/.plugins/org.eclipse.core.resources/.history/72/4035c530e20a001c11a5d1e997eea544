@@ -1,0 +1,7 @@
+package in.nareshit.raghu.service.impl;
+
+import in.nareshit.raghu.service.IEmployeeService;
+
+public class EmployeeServiceImpl implements IEmployeeService {
+
+}

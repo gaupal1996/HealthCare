@@ -1,0 +1,5 @@
+package com.bharat.springweb.controller;
+
+public class ProductRestController {
+
+}

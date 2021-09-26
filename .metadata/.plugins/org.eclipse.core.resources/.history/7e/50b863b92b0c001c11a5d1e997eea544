@@ -1,0 +1,18 @@
+package com.bharat.springweb.controller;
+
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+
+import com.bharat.springweb.entity.Product;
+import com.bharat.springweb.repos.ProductRepository;
+
+@Controller
+public class ProductRestController {
+	
+	
+	ProductRepository repo;
+	public List <Product> getProduct(){
+
+}
+}

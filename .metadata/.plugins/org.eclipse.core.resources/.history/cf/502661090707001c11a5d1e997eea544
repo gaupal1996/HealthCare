@@ -1,0 +1,27 @@
+package com.gaurav.springdatajpa;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.gaurav.springdatajpa.entity.Student;
+import com.gaurav.springdatajpa.repos.StudentRepository;
+
+@SpringBootTest
+class SpringDataJpaApplicationTests {
+	
+	@Autowired
+	private StudentRepository repository;
+
+	@Test
+	void testSaveStudent() {
+		
+		Student student = new Student();
+		student.setId(1);
+		student.setName("Gaurav");
+		student.setTestScore(100);
+		
+		repository.save(student);
+	}
+
+}

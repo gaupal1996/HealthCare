@@ -1,0 +1,5 @@
+package com.gaurav.core.service;
+
+public class PaymentServiceImpl implements PaymentService {
+
+}

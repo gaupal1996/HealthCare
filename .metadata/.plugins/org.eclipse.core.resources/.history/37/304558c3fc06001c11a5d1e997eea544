@@ -1,0 +1,5 @@
+package com.gaurav.core.dao;
+
+public class PaymentDAOImpl implements PaymentDAO {
+
+}
